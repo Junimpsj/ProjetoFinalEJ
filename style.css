@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Valorant';
+    src: url('fontes/Valorant Font.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SimplySans';
+    src: url('fontes/SimplySans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RoboRegular';
+    src: url('fontes/Roboto-Regular.ttf') format('truetype');
+}
+
+.navigationbar {
+    font-family: 'Valorant', Times, serif;
+    font-weight: normal;
+    font-size: 3;
+}
+
+.pbotao {
+    font-family: 'Valorant', Times, serif;
+    font-weight: normal;
+    font-size: 3;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #BD3944;
+  }
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Valorant", sans-serif;
+    color: #53212B;
+    font-size: 17px;
+  }
+
+  header{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 3rem;
+    font-size: 1.2rem;
+    background-color: rgb(17, 17, 17);
+  }
+
+.valorantlogo {
+    width: 20vw;
+    height: 10vh;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+  .navigationbar{
+    list-style: none;
+  }
+  
+  .navigationbar li{
+    display: inline-block;
+    padding: 0rem 1.5rem;
+  }
+  
+  .navigationbar li a{
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .navigationbar li a:hover{
+    color: #FD4556;
+  }
+  
+  .navigationbar button{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000000;
+    background-color: #BD3944;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .navigationbar button:hover{
+    font-size: 1.3rem;
+    padding: 0.5rem 1.7rem;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #53212B;
+  }
+
+  .contato{
+    height: 8vh;
+    width: 100%;
+    display: inline-flex;
+    bottom: 0;
+    padding: 1.5rem 0rem;
+    justify-content: space-around;
+    color: white;
+  }
+
+  .divfooter p {
+    color: white;
+    font-family: 'SimplySans', Times, serif;
+  }
+
+  .contato li{
+    margin: 0rem 4rem;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .capavalorant {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .div1 {
+    height: fit-content;
+    background: #BD3944;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 3rem;
+    font-size: 1.2rem;
+    display: flex;
+  }
+
+  .div2 {
+    height: fit-content;
+    background: #FFFBF5;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 3rem;
+    font-size: 1.2rem;
+    display: flex;
+  }
+  .div3 {
+    height: fit-content;
+    background: #000000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 3rem;
+    font-size: 1.2rem;
+    display: flex;
+  }
+
+  .chamber {
+    width: 50vw;
+    align-items: left;
+  }
+
+  .text-iniciativa {
+    color: white;
+    font-family: 'SimplySans', Times, serif;
+  }
+
+  .titulo-iniciativa{
+    color: white;
+    font-size: 50px;
+  }
+
+  .riotlogo {
+    width: 34vw;
+    height: 30vh;
+    align-items: right;
+  }
+
+  .titulo-empresa{
+    color: #FD4556;
+    font-size: 50px;
+  }
+
+  .text-empresa {
+    color: #FD4556;
+    font-family: 'SimplySans', Times, serif;
+  }
+
+
+  .titulo-agentes{
+    color: white;
+    font-size: 50px;
+  }
+
+  .text-agentes {
+    color: white;
+    font-family: 'SimplySans', Times, serif;
+  }
+
+
+
+  .div-geral-agentes{
+    color:white;
+  }
